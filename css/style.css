@@ -1,0 +1,285 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variable  */
+:root{
+    --navbar-height:59px;
+}
+
+/* Header Section */
+header{
+    background-color: #1F2937;
+     height: 550px; 
+    /* width: 500px; */ */
+}
+
+/* Navigation Section */
+#navbar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding-top: 20px; */
+}
+
+/* Navigation bar: Log and image */
+#logo{
+    color: #F9FAF8;
+    font-size: 25px;
+    /* border: 2px solid red; */
+    font-weight: bold;
+    padding: 3px 23px;
+    font-family: 'Roboto', sans-serif;
+}
+#logo img{
+    height: 80px;
+    width: 80px;
+    margin: 10px 34px;
+    opacity: 0.7;
+}
+
+/* ul li styling */
+#navbar ul {
+    display: flex;
+    /* margin-left: 531px; */
+    /* right: 120px; */
+    /* border: 2px solid red; */
+    padding-left: 500px;
+        padding-top: 25px;
+
+}
+#navbar ul li{
+    list-style: none;
+    /* font-size: 1.3rem; */
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bfc1c5;
+    padding: 8px 23px;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#navbar ul li a:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+
+/* inside-header after nav */
+#inside-header{
+    display: flex;
+    /* align-items: center; */
+    color: white;
+    margin: 100px 34px;
+    /* border: 2px solid red; */
+    justify-content: center;
+
+}
+/* inside-header:left side */
+#inside-header #main-left{
+    /* border: 2px solid blue; */
+    width: 40%;
+
+}
+
+#inside-header #main-left #main-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+
+} 
+#inside-header #main-left #para{
+    color: #bfc1c5;
+    /* margin-top: 10px; */
+    padding-top: 20px;
+}
+
+
+.btn-new{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#inside-header #main-left button:hover{
+   background-color: #9f99eb;
+   color:bisque
+}
+
+/* inside-header: right side  */
+#inside-header #main-right{
+    margin-left: 200px;
+    /* border: 2px solid green; */
+}
+#inside-header #main-right img{
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid green; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+/* Service Container Section */
+
+#service-container{
+/* padding: 50px; */
+height: 500px;
+/* border: 2px solid red; */
+margin-top: 34px;
+
+}
+
+/* Service Container Section: service  */
+#services{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-top: 34px;
+    justify-content: center;
+}
+/* #services{
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    margin-top: 34px;
+    justify-content: center;
+} */
+
+#services .box{
+        border: 2px solid  #3882F6;
+
+        padding: 34px;
+        background-color: #f2f2f2;
+        margin: 3px 5px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 16%;
+
+    }
+    
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+#services .box h1{
+
+}
+#services .box p{
+    color: #1F2937;
+    /* color:rgb(56, 56, 56) */
+}
+/* quote-section  */
+#quote-section{
+    height: 210px;    
+    width: 80%;
+    background-color: #d0d4dd;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+
+}
+#quote-section p{
+    font-size: 20px;
+    color: #1F2937;
+    padding: 50px;
+    font-style: italic;
+
+}
+#quote-section h3{
+    float: right;
+    /* margin-top:0px; */
+    margin-right: 100px;
+    font-style: italic;
+}
+
+/* before-footer Section */
+#before-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 10px;
+    height: 90px;
+}
+.sign-button{ 
+        color: #fff;
+        font-family: 'Roboto', arial;
+        border-color: #fff;
+        border-radius: 8px;
+        background-color: #3882F6;
+        padding: 5px 25px;
+        font-size: 15px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+.sign-button:hover{ 
+        /* color: black;
+        opacity: 0.9; */
+        border: 1px solid red;
+    }
+
+/* footer Secrion */
+.bx-footer{
+    height: 20px;
+    background-color: #1F2937;
+    margin-top: 70px;
+    color: white;
+    font-family: 'Roboto', arial;
+}
+/* Utility classes */
+.h-primary{
+    font-size: 3.5rem;
+    padding: 12px;
+    font-family: 'Roboto', arial;
+
+}
+
+.h-secondary{
+    font-size: 2.3ren;
+    padding: 12px;
+    font-family: 'Roboto', arial;
+
+}
+
+.btn{
+    padding: 6px 15px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+    font-family: 'Roboto', arial;
+
+}
